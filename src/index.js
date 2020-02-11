@@ -1,7 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
 import AppTab from "./pages";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";

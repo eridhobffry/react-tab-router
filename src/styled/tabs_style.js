@@ -21,6 +21,7 @@ export const Ulinline = styled.ul`
       cursor: pointer;
       color: #aaa;
       text-decoration: none;
+      outline: none;
       &:focus {
         border-bottom: 2px solid #337ab7;
         color: #444;
