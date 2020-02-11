@@ -11,18 +11,20 @@ export const Ulinline = styled.ul`
   -webkit-padding-start: 0px;
   li {
     display: inline-block;
-    margin-left: 0;
-    padding: 10px;
-    border-bottom: 2px solid #eee;
-    transition: all 0.5s;
-    font-family: sans-serif;
-    font-weight: 300;
-    cursor: pointer;
-    color: #aaa;
-
-    &.selected {
-      border-bottom: 2px solid #337ab7;
-      color: #444;
+    a {
+      margin-left: 0;
+      padding: 10px;
+      border-bottom: 2px solid #eee;
+      transition: all 0.5s;
+      font-family: sans-serif;
+      font-weight: 300;
+      cursor: pointer;
+      color: #aaa;
+      text-decoration: none;
+      &:focus {
+        border-bottom: 2px solid #337ab7;
+        color: #444;
+      }
     }
   }
 `;
